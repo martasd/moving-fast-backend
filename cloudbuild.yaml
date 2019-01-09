@@ -14,8 +14,8 @@ steps:
 
   - name: 'gcr.io/cloud-builders/kubectl'
     env:
-      - 'CLOUDSDK_COMPUTE_ZONE=europe-west4-a'
-      - 'CLOUDSDK_CONTAINER_CLUSTER=meetup-demo-chat'
+      - 'CLOUDSDK_COMPUTE_ZONE=europe-west3-a'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=pyvo-kubernetes'
     args:
       - 'set'
       - 'image'
